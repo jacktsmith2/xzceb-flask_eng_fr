@@ -10,8 +10,8 @@ apikey = os.environ['apikey']
 url = os.environ['url']
 model_id = 'en-fr'
 model_id2 = 'fr-en'
-englishText = 'This is python programming'
-frenchText = 'Il s agit d une programmation Python'
+englishText = 'Hello'
+frenchText = 'Bonjour'
 
 authenticator = IAMAuthenticator(apikey)
 language_translator = LanguageTranslatorV3(
